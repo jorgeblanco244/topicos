@@ -1,0 +1,167 @@
+a:hover{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:link{text-decoration:none;}
+a{text-decoration:none;}
+
+img{ border: 0;}
+
+#cuerpo_articulos{
+	width:auto;
+	min-width:80%;
+}
+
+/* ESTILOS PARA EL BOTON */
+#boton_paginador a {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style: normal;
+	text-align:center;
+	color:#fff !important;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#boton_paginador a:link  {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+	color:#fff !important;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#boton_paginador a:visited {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+	color:#fff !important;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+#boton_paginador a:hover {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style: normal;
+	text-align: center;
+	cursor: pointer;
+	color: #00C3FF !important;
+	font-weight: bold;
+	text-decoration:none;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+	
+} 
+
+
+#boton_paginador {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:11px;
+	font-style: normal;
+	text-align:center;
+	color:#fff !important;
+	font-weight: bold;
+	text-decoration:none;
+	
+	width:30px;
+	height:30px;
+	/*margin-left:0px;
+	margin-top:0px;*/
+	float:left;
+	/*float:right;*/
+	/*margin-right:5px;*/
+	margin:1px;
+	padding-top:0px;
+	text-align:center;
+	/*border:1px solid #000;
+	background-color:#000;
+	color:#fff;*/
+	border-radius:3px;
+	
+	background: rgba(86,86,86,1);
+	/* Old Browsers */
+	background: -moz-linear-gradient(top, rgba(86,86,86,1) 0%, rgba(45,45,45,1) 50%, rgba(45,45,45,1) 51%, rgba(0,5,60,1) 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(86,86,86,1)), color-stop(50%, rgba(45,45,45,1)), color-stop(51%, rgba(45,45,45,1)), color-stop(100%, rgba(0,5,60,1)));
+	/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(86,86,86,1) 0%, rgba(45,45,45,1) 50%, rgba(45,45,45,1) 51%, rgba(0,5,60,1) 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(86,86,86,1) 0%, rgba(45,45,45,1) 50%, rgba(45,45,45,1) 51%, rgba(0,5,60,1) 100%);
+	/* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(86,86,86,1) 0%, rgba(45,45,45,1) 50%, rgba(45,45,45,1) 51%, rgba(0,5,60,1) 100%);
+	/* IE 10+ */
+	background: linear-gradient(to bottom, rgba(86,86,86,1) 0%, rgba(45,45,45,1) 50%, rgba(45,45,45,1) 51%, rgba(0,5,60,1) 100%);
+	/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#565656', endColorstr='#00053c', GradientType=0 );
+	/* IE6-9 */
+	
+	
+}
+
+#contenedor_botones_carrito{
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:right;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#btn_vaciar_carrito{
+	margin:0px;
+	margin-right:5px;
+	margin-left:5px;
+}
+
+#btn_confirmar_pedido{
+	margin:0px;
+	margin-right:5px;
+	margin-left:5px;
+}
+#boton{
+	padding: 10px;
+	background:  #87CEFA;
+	width: 95px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0px 0px 1px #000;
+	display: inline-block;
+}
+
+#boton:hover{
+	opacity: .8;
+}
+
+#caja{
+	width: auto;
+	margin: auto;
+	height: 0px;
+	background: #FFFFFF;
+	box-shadow: 10px 10px 3px #D8D8D8;
+	transition: height .4s;
+}
+#contenedorTabla{
+	border: solid 1px;
+	border-color: black;
+	height:400px;
+	width: 1183px;
+	overflow:auto;
+}
+#contenedorImg{
+	height : 180px;
+	width: 180px;
+}
+#img_g{
+	height :200px;
+	width: 200px;
+}

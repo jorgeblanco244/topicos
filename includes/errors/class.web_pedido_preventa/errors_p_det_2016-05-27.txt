@@ -1,0 +1,21 @@
+FECHA: 2016-05-27, 00:19:54 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=. |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.'
+								WHERE id = '5' AND id_articulos = '18' 
+FECHA: 2016-05-27, 00:19:54 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=. |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.'
+								WHERE id = '5' AND id_articulos = '18' 
+FECHA: 2016-05-27, 00:19:55 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=., |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.,'
+								WHERE id = '5' AND id_articulos = '18' 
+FECHA: 2016-05-27, 00:19:55 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=.,, |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.,,'
+								WHERE id = '5' AND id_articulos = '18' 
+FECHA: 2016-05-27, 00:19:55 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=.,, |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.,,'
+								WHERE id = '5' AND id_articulos = '18' 
+FECHA: 2016-05-27, 00:19:56 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=., |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.,'
+								WHERE id = '5' AND id_articulos = '18' 
+FECHA: 2016-05-27, 00:19:56 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=18&cantidad=. |1265: Data truncated for column 'cantidad' at row 1 |QUERY: UPDATE web_pedido_temp_detalle SET						
+								cantidad = '.'
+								WHERE id = '5' AND id_articulos = '18' 

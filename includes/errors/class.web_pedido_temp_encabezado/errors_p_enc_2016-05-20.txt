@@ -1,0 +1,4 @@
+FECHA: 2016-05-20, 02:40:52 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php?_pagi_pg=3 |PROGRAMA: /panthercorp/medicina/site/carrito/proc.agregar.item.php?codart=65&cantidad=1 |1366: Incorrect integer value: '' for column 'id_cliente' at row 1 |QUERY: INSERT INTO web_pedido_temp_encabezado
+							(fecha_de_emision, fecha_de_actualizacion, id_cliente, observacion) 
+							VALUES 
+							(NOW(), NOW(), '', '')

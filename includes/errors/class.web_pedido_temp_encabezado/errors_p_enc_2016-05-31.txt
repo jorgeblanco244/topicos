@@ -1,0 +1,2 @@
+FECHA: 2016-05-31, 01:24:52 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/login.php |PROGRAMA: /panthercorp/medicina/site/proc.login.php |1146: Table 'pg_pharmad.web_pedido_temp_encabezado' doesn't exist |QUERY: SELECT id, fecha_de_emision, fecha_de_actualizacion, id_cliente, observacion
+							FROM web_pedido_temp_encabezado WHERE id_cliente = '2'

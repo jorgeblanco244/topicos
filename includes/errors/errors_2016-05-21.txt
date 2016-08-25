@@ -1,0 +1,44 @@
+FECHA: 2016-05-21, 02:26:46 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,10' at line 11 |QUERY: SELECT A.id, A.detalle, A.descripcion, (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) cantidad,
+								A.precio_costo, A.precio_oferta, A.porcentaje_flete, IFNULL(IVA.porcentaje,0) porcen_iva, A.moneda_id,
+								IFNULL(MON.nombre,'PESOS') moneda, IFNULL(MON.coeficiente,1) moneda_coef, A.foto
+							FROM articulos AS A 
+							LEFT OUTER JOIN articulos_existencias AS AE ON (A.id = AE.articulo_id)
+							LEFT OUTER JOIN articulos_existencias_reservas AS AER ON (AE.articulo_id = AER.articulo_id)
+							LEFT OUTER JOIN parametros_Iva AS IVA ON (IVA.id = A.porcentaje_iva_id)
+							LEFT OUTER JOIN parametros_moneda AS MON ON (MON.id = A.moneda_id)
+						WHERE 
+							A.oculto = 0 AND A.web_publicado = 1 			AND (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) > 0
+						LIMIT 100 LIMIT 0,10
+FECHA: 2016-05-21, 02:27:51 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,10' at line 11 |QUERY: SELECT A.id, A.detalle, A.descripcion, (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) cantidad,
+								A.precio_costo, A.precio_oferta, A.porcentaje_flete, IFNULL(IVA.porcentaje,0) porcen_iva, A.moneda_id,
+								IFNULL(MON.nombre,'PESOS') moneda, IFNULL(MON.coeficiente,1) moneda_coef, A.foto
+							FROM articulos AS A 
+							LEFT OUTER JOIN articulos_existencias AS AE ON (A.id = AE.articulo_id)
+							LEFT OUTER JOIN articulos_existencias_reservas AS AER ON (AE.articulo_id = AER.articulo_id)
+							LEFT OUTER JOIN parametros_Iva AS IVA ON (IVA.id = A.porcentaje_iva_id)
+							LEFT OUTER JOIN parametros_moneda AS MON ON (MON.id = A.moneda_id)
+						WHERE 
+							A.oculto = 0 AND A.web_publicado = 1 			AND (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) > 0
+						LIMIT 100 LIMIT 0,10
+FECHA: 2016-05-21, 02:29:05 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,10' at line 11 |QUERY: SELECT A.id, A.detalle, A.descripcion, (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) cantidad,
+								A.precio_costo, A.precio_oferta, A.porcentaje_flete, IFNULL(IVA.porcentaje,0) porcen_iva, A.moneda_id,
+								IFNULL(MON.nombre,'PESOS') moneda, IFNULL(MON.coeficiente,1) moneda_coef, A.foto
+							FROM articulos AS A 
+							LEFT OUTER JOIN articulos_existencias AS AE ON (A.id = AE.articulo_id)
+							LEFT OUTER JOIN articulos_existencias_reservas AS AER ON (AE.articulo_id = AER.articulo_id)
+							LEFT OUTER JOIN parametros_Iva AS IVA ON (IVA.id = A.porcentaje_iva_id)
+							LEFT OUTER JOIN parametros_moneda AS MON ON (MON.id = A.moneda_id)
+						WHERE 
+							A.oculto = 0 AND A.web_publicado = 1 			AND (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) > 0
+						LIMIT 100 LIMIT 0,10
+FECHA: 2016-05-21, 02:29:58 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 0,10' at line 11 |QUERY: SELECT A.id, A.detalle, A.descripcion, (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) cantidad,
+								A.precio_costo, A.precio_oferta, A.porcentaje_flete, IFNULL(IVA.porcentaje,0) porcen_iva, A.moneda_id,
+								IFNULL(MON.nombre,'PESOS') moneda, IFNULL(MON.coeficiente,1) moneda_coef, A.foto
+							FROM articulos AS A 
+							LEFT OUTER JOIN articulos_existencias AS AE ON (A.id = AE.articulo_id)
+							LEFT OUTER JOIN articulos_existencias_reservas AS AER ON (AE.articulo_id = AER.articulo_id)
+							LEFT OUTER JOIN parametros_Iva AS IVA ON (IVA.id = A.porcentaje_iva_id)
+							LEFT OUTER JOIN parametros_moneda AS MON ON (MON.id = A.moneda_id)
+						WHERE 
+							A.oculto = 0 AND A.web_publicado = 1 			AND (IFNULL(AE.cantidad,0) - IFNULL(AER.cantidad_en_reserva,0)) > 0
+						LIMIT 100 LIMIT 0,10

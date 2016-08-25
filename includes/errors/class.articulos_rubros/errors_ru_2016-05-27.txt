@@ -1,0 +1,115 @@
+FECHA: 2016-05-27, 00:40:54 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:42:08 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:42:28 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:44:17 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:48:19 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:49:11 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:50:01 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:50:16 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:51:29 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:52:31 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:53:53 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:57:18 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/index.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:57:44 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/index.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 00:58:23 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:12:03 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:12:18 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:14:55 |HOST: localhost |LLAMADA:  |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:15:10 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:19:27 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:19:39 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:19:47 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:20:05 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/articulos.php |PROGRAMA: /panthercorp/medicina/site/carrito.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
+FECHA: 2016-05-27, 01:20:10 |HOST: localhost |LLAMADA: http://localhost/panthercorp/medicina/site/carrito.php |PROGRAMA: /panthercorp/medicina/site/articulos.php |1054: Unknown column 'ru.web_publicado' in 'where clause' |QUERY: SELECT * FROM articulos_rubros AS ru 
+						WHERE EXISTS (SELECT * FROM articulos AS art 
+										WHERE art.rubro_id = ru.id AND art.web_publicado = 1 AND art.oculto = 0) 
+								AND ru.oculto = 0 AND ru.web_publicado = 1 
+						ORDER BY ru.nombre ASC
